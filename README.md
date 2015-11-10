@@ -1,0 +1,1 @@
+Solar CMS user module
