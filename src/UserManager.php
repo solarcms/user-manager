@@ -8,9 +8,10 @@
 
 namespace Solarcms\UserManager;
 
-class UserManager{
-
-    public static function hello(){
+class UserManager
+{
+    public static function hello()
+    {
         return config('usermanager.user');
     }
 

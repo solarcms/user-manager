@@ -2,7 +2,11 @@
     "name": "solarcms/user-manager",
     "description": "Solar CMS user module",
     "type": "library",
+<<<<<<< HEAD
     "license": "ISC",
+=======
+    "license": "Apache",
+>>>>>>> 0d5b93cf6d16d45a80e1c40a97f5ce80f6ac21c4
     "authors": [
         {
             "name": "Tseegii Tselmeg",

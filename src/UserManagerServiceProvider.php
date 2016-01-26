@@ -7,7 +7,6 @@ use Illuminate\Support\ServiceProvider as ServiceProvider;
 class UserManagerServiceProvider extends ServiceProvider
 {
 
-
     /**
      * Bootstrap the application services.
      *
@@ -34,6 +33,7 @@ class UserManagerServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . DIRECTORY_SEPARATOR . 'Assets'. DIRECTORY_SEPARATOR . 'dist' => public_path('assets'. DIRECTORY_SEPARATOR .'user'),
         ], 'userasset');
+
     }
 
     /**
