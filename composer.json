@@ -1,0 +1,14 @@
+{
+    "name": "solarcms/user-manager",
+    "description": "Solar CMS user module",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Tseegii Tselmeg",
+            "email": "tseegii.it@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
