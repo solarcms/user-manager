@@ -21,6 +21,21 @@
             </div>
         </div>
     </div>
+
+
+    {{--<div class="modal fade inactive" id="right-panel" data-backdrop="false" style={display: none;}>--}}
+        {{--<div class="right w-xl white b-l">--}}
+            {{--<div class="row-col ng-scope"><a data-dismiss="modal"--}}
+                                                 {{--class="pull-right text-muted text-lg p-a-sm m-r-sm">×</a>--}}
+                {{--<div class="p-a b-b"><span class="h5">Members</span></div>--}}
+                {{--<div class="row-row">--}}
+                    {{--<div class="row-body">--}}
+                        {{--asdasd--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 @endsection
 
 @section('script')

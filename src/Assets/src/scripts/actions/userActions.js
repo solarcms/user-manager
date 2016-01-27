@@ -17,3 +17,31 @@ export function getProfile(data){
         data
     }
 }
+
+export function createUser(data){
+    return{
+        type: ActionTypes.CREATE_USER,
+        data
+    }
+}
+
+export function getAimagAction(data) {
+    return {
+        type: ActionTypes.GET_AIMAG,
+        data
+    }
+}
+
+export function getSumAction(data) {
+    return {
+        type: ActionTypes.GET_SUM,
+        data
+    }
+}
+
+export function getBagAction(data) {
+    return {
+        type: ActionTypes.GET_BAG,
+        data
+    }
+}

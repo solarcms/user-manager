@@ -9,24 +9,14 @@
             </li>
         </ul>
 
-        <ul class="nav navbar-nav pull-left hidden-md-down">
-            <li class="nav-item">
-                <a class="nav-link p-r b-r" ui-fullscreen="">
-                    <span>
-                        <i class="material-icons">&#xE5D0;</i>
-                    </span>
-                </a>
-            </li>
-        </ul>
-
-        <div class="navbar-item pull-left h5 p-l" id="pageTitle">Хэрэглэгчид</div>
+        <div class="navbar-item pull-left h6 p-l" id="pageTitle">Хэрэглэгчид</div>
 
         <ul class="nav navbar-nav pull-left hidden-md-down">
             <li class="nav-item">
-                <a class="nav-link">
+                <a class="nav-link text-success" data-toggle="modal" data-target="#right-panel" ui-toggle-class="modal-open-aside" ui-target="body">
                     <span>
-                        Нэмэх
                         <i class="material-icons">&#xE145;</i>
+                        Нэмэх
                     </span>
                 </a>
             </li>
